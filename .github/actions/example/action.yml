@@ -1,6 +1,6 @@
-name: 'Example with PhpStan'
+name: 'Example action'
 author: 'Yireo'
-description: 'performs php static code analysis with the Magento 2 PhpStan ruleset'
+description: 'Perform some kind of thing'
 inputs:
   foobar:
     description: 'FOOBAR option'

@@ -1,14 +1,14 @@
-name: PHPStan
+name: Example workflow
 on: [push, pull_request]
 
 jobs:
-  phpstan:
-    name: PHPStan
+  example:
+    name: Example job
     runs-on: ubuntu-latest
     env:
         foobar: "example2"
     steps:
       - uses: actions/checkout@v2
-      - uses: yireo-training/YireoTraining_ExampleGithubWorkflows/.github/actions/magento-phpstan@master
+      - uses: yireo-training/YireoTraining_ExampleGithubWorkflows/.github/actions/example@master
         with:
           foobar: "example1"
