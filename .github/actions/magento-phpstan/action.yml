@@ -21,7 +21,7 @@ inputs:
     required: false
 runs:
   using: 'docker'
-  image: 'docker://extdn/magento-phpstan-action:latest'
+  image: 'Dockerfile'
 branding:
-  icon: 'code'  
+  icon: 'code'
   color: 'green'
