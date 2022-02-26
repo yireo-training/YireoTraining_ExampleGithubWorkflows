@@ -11,5 +11,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: yireo-training/YireoTraining_ExampleGithubWorkflows/.github/actions/magento-phpstan@master
         with:
-          composer_name: ${{ secrets.COMPOSER_NAME }}
           foobar: "example1"
