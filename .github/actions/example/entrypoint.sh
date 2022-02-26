@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
-#echo "FOOBAR: $FOOBAR"
-#echo "INPUT_FOOBAR: $INPUT_FOOBAR"
-echo "Hello World"
+echo "FOOBAR: $FOOBAR"
+echo "INPUT_FOOBAR: $INPUT_FOOBAR"
+echo "The end"
