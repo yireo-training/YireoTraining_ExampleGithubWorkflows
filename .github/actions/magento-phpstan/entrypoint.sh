@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+echo "FOOBAR = $FOOBAR"
+echo "INPUT_FOOBAR = $INPUT_FOOBAR"
+exit;
+
 test -z "${COMPOSER_VERSION}" && COMPOSER_VERSION=$INPUT_COMPOSER_VERSION
 if [ -z "$COMPOSER_VERSION" ] ; then
    COMPOSER_VERSION=1
